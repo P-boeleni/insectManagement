@@ -1,0 +1,47 @@
+h2{
+    text-align: center;
+}
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+  }
+  
+  table th{
+      background-color: #7d8085;
+      color: #fff;
+  }
+  table tr{
+    border-bottom: solid 1px #eee;
+    cursor: pointer;
+  }
+  
+  table th,table td{
+    text-align: center;
+    width: 25%;
+    padding: 15px 0;
+  }
+  /**
+  table td.icon{
+    background-size: 35px;
+    background-position: left 5px center;
+    background-repeat: no-repeat;
+    padding-left: 30px;
+  }
+
+  table td.icon.flog{
+    background-image: url(icon-bird.png)
+  }
+  
+  table td.icon.tropical{
+    background-image: url(icon-whale.png)
+  }
+  
+  table td.icon.insect{
+    background-image: url(icon-crab.png)
+  }
+
+  table td.icon.plants{
+    background-image: url(icon-crab.png)
+  }
+ 
